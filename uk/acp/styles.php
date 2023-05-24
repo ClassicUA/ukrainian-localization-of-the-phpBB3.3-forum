@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, [
+$lang = array_merge($lang, array(
 
 	'ACP_STYLES_EXPLAIN'	=> 'Тут ви можете керувати усіма доступними стилями вашого форуму.<br>Зауважте, що ви не можете видалити стиль “<strong>prosilver</strong>”, оскільки цей стиль є основним стилем phpBB і використовується за замовчуванням',
 
@@ -88,4 +88,4 @@ $lang = array_merge($lang, [
 	'UNINSTALL_DEFAULT'							=> 'Ви не можете видалити стиль за замовчуванням.',
 
 	'BROWSE_STYLES_DATABASE'						=> 'Перейти до бази стилів',
-]);
+));
