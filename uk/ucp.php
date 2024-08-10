@@ -540,7 +540,7 @@ $lang = array_merge($lang, array(
 	'UCP_PROFILE_PROFILE_INFO'	=> 'Редагувати профіль',
 	'UCP_PROFILE_REG_DETAILS'	=> 'Налаштування облікового запису',
 	'UCP_PROFILE_SIGNATURE'	=> 'Редагувати підпис',
-	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Керувати ключами функції автологування “Пам\'ятати мене” login keys',
+	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Керування ключами входу "Пам\'ятати мене"',
 
 	'UCP_USERGROUPS'	=> 'Групи',
 	'UCP_USERGROUPS_MEMBER'	=> 'Участь в групах',
