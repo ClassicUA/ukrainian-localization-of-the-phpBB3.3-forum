@@ -21,10 +21,10 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'HELP_BBCODE_BLOCK_IMAGES' => 'Показ зображень в повідомленнях',
 	'HELP_BBCODE_BLOCK_INTRO' => 'Вступ',
 	'HELP_BBCODE_BLOCK_LINKS' => 'Створення посилань',
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'HELP_BBCODE_LISTS_UNORDERER_ANSWER' => 'BBCode підтримує два види списків: марковані й нумеровані. Вони практично ідентичні своїм еквівалентам з HTML. У маркованих списках всі елементи виводяться послідовно, кожен відзначається символом-маркером. Для створення маркованого списку використовуйте <strong>[list][/list]</strong> та визначте кожен елемент за допомогою <strong>[*]</strong>. Наприклад, щоб вивести свої улюблені кольори, ви можете використовувати: <br /><br /><strong>[list]</strong><br /><strong>[*]</strong>Червоний<br /><strong>[*]</strong>Синій<br /><strong>[*]</strong>Жовтий<br /><strong>[/list]</strong><br /><br />Це видасть такий список: <ul><li>Червоний</li><li>Синій</li><li>Жовтий</li></ul><br />Також можна вказати стиль маркера списку, використовуючи <strong>[list=disc][/list]</strong>, <strong>[list=circle][/list]</strong>, or <strong>[list=square][/list]</strong>.',
 	'HELP_BBCODE_LISTS_UNORDERER_QUESTION' => 'Створення маркованого списку',
 
-	'HELP_BBCODE_OTHERS_CUSTOM_ANSWER' => 'Якщо ви є адміністратором цієї конференції і маєте достатні права, то можете додати нові теги BBCode в адміністраторському розділі.',
+	'HELP_BBCODE_OTHERS_CUSTOM_ANSWER' => 'Якщо ви є адміністратором цієї конференції і маєтe достатні права, то можете додати нові теги BBCode в адміністраторському розділі.',
 	'HELP_BBCODE_OTHERS_CUSTOM_QUESTION' => 'Чи можу я додати власні теги?',
 
 	'HELP_BBCODE_QUOTES_CODE_ANSWER' => 'Якщо потрібно вивести частину програмного коду або інші дані фіксованої ширини, такі, як шрифт Courier, необхідно оточувати текст тегами <strong>[code][/code]</strong>, наприклад <br /><br /><strong>[code]</strong> echo & quot;Тут знаходиться код&quot;;<strong>[/code]</strong><br /><br />Все форматування, що використовується всередині тегів <strong>[code][/code]</strong>, буде збережено.',
@@ -63,4 +63,4 @@ $lang = array_merge($lang, array(
 	'HELP_BBCODE_TEXT_COLOR_QUESTION' => 'Як змінити колір або розмір тексту',
 	'HELP_BBCODE_TEXT_COMBINE_ANSWER' => 'Так, це можливо. Наприклад, щоб привернути увагу, можна написати:<br /><br /><strong>[size=200][color=red][b]</strong>ПОДИВІТЬСЯ НА МЕНЕ!<strong>[/b][/color][/size]</strong><br /><br />в цьому випадку буде виведено <span style="color:red;font-size:200%;"><strong>ПОДИВІТЬСЯ НА МЕНЕ!</strong></span><br /><br />Не рекомендується виводити таким чином довгі тексти! Врахуйте, що автор повідомлення повинен подбати про правильне закриття тегів. Наприклад, наступне використання тегів BBCode невірне: <br /><br /><strong>[b][u]</strong>Це невірно<strong>[/b][/u]</strong>',
 	'HELP_BBCODE_TEXT_COMBINE_QUESTION' => 'Чи можу я комбінувати теги?',
-));
+]);

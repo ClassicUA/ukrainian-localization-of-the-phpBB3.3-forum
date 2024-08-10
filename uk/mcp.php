@@ -37,8 +37,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTION_NOTE'	=> 'Дія/Примітка',
 	'ACTION'	=> 'Дія',
+	'ACTION_NOTE'	=> 'Дія/Примітка',
 	'ADD_FEEDBACK'	=> 'Додати відгук',
 	'ADD_FEEDBACK_EXPLAIN'	=> 'Якщо ви бажаєте написати відгук, будь ласка, заповніть наступну форму. Використовуйте лише звичайний текст; HTML, BBCode, і т.п. не дозволяються.',
 	'ADD_WARNING'	=> 'Додати попередження',
@@ -58,6 +58,7 @@ $lang = array_merge($lang, array(
 	'APPROVE_TOPIC_CONFIRM'	=> 'Ви впевнені, що хочете схвалити цю тему?',
 	'APPROVE_TOPICS'		=> 'Схвалити теми',
 	'APPROVE_TOPICS_CONFIRM'=> 'Ви впевнені, що хочете схвалити обрані теми?',
+	
 	'CANNOT_MOVE_SAME_FORUM'	=> 'Ви не можете перемістити тему в форум, в якому вона знаходиться',
 	'CANNOT_WARN_ANONYMOUS'	=> 'Ви не можете попереджувати незареєстрованих користувачів (гостей)',
 	'CANNOT_WARN_SELF'	=> 'Ви не можете попередити себе',
@@ -71,7 +72,8 @@ $lang = array_merge($lang, array(
 	'CLOSE_REPORT_CONFIRM'	=> 'Ви впевнені, що хочете закрити обрану скаргу?',
 	'CLOSE_REPORTS'	=> 'Закрити скарги',
 	'CLOSE_REPORTS_CONFIRM'	=> 'Ви впевнені, що хочете закрити обрані скарги?',
- 	'DELETE_PM_REPORT' => 'Видалити скаргу на приватне повідомлення',
+ 	
+	'DELETE_PM_REPORT' => 'Видалити скаргу на приватне повідомлення',
  	'DELETE_PM_REPORT_CONFIRM' => 'Ви впевнені, що хочете видалити скаргу на обране приватне повідомлення?',
  	'DELETE_PM_REPORTS' => 'Видалити скарги на приватні повідомлення',
  	'DELETE_PM_REPORTS_CONFIRM' => 'Ви впевнені, що хочете видалити скарги на обрані приватні повідомлення?',
@@ -90,8 +92,10 @@ $lang = array_merge($lang, array(
 	'DISAPPROVE_POSTS_CONFIRM'	=> 'Ви впевнені, що хочете відхилити обрані повідомлення?',
 	'DISPLAY_LOG'	=> 'Показати записи за останні',
 	'DISPLAY_OPTIONS'	=> 'Налаштування відображення',
+	
 	'EMPTY_REPORT'	=> 'Ви необхідно ввести опис скарги',
 	'EMPTY_TOPICS_REMOVED_WARNING'	=> 'Зауважте, що одну або декілька тем буде видалено з бази даних, оскільки вони не містили або перестануть містити повідомлення',
+	
 	'FEEDBACK'	=> 'Відгуки',
 	'FORK'	=> 'Створити копію',
 	'FORK_TOPIC'	=> 'Створити копію теми',
@@ -104,9 +108,12 @@ $lang = array_merge($lang, array(
 	'FORUM_NOT_POSTABLE'	=> 'В обраний вами форум не можна писати повідомлення',
 	'FORUM_STATUS'	=> 'Статус форуму',
 	'FORUM_STYLE'	=> 'Стиль форуму',
+	
 	'GLOBAL_ANNOUNCEMENT'	=> 'Важлива',
+	
 	'IP_INFO'	=> 'Інформація про IP-адресу',
 	'IPS_POSTED_FROM'	=> 'IP-адреса, з якої було написане повідомлення',
+	
 	'LATEST_LOGS'	=> 'Останні 5 дій',
 	'LATEST_REPORTED'	=> 'Останні 5 скарг',
  	'LATEST_REPORTED_PMS' => 'Останні 5 скарг на приватні повідомлення',
@@ -126,24 +133,29 @@ $lang = array_merge($lang, array(
 	'LOCK_TOPIC_CONFIRM'	=> 'Ви впевнені, що хочете закрити цю тему?',
 	'LOCK_TOPICS'	=> 'Закрити обрані теми',
 	'LOCK_TOPICS_CONFIRM'	=> 'Ви впевнені, що хочете закрити обрані теми?',
-	'LOGVIEW_VIEWPOST'			=> 'Переглядає повідомлення',
 	'LOGS_CURRENT_TOPIC'	=> 'Переглядає логи теми:',
 	'LOGIN_EXPLAIN_MCP'	=> 'Для модерування форуму вам необхідно залогуватись.',
+	'LOGVIEW_VIEWPOST'			=> 'Переглядає повідомлення',
 	'LOGVIEW_VIEWTOPIC'	=> 'Переглянути тему',
 	'LOGVIEW_VIEWLOGS'	=> 'Переглянути лог теми',
 	'LOGVIEW_VIEWFORUM'	=> 'Переглянути форум',
 	'LOOKUP_ALL'	=> 'Переглянути хости для усіх IP-адрес',
 	'LOOKUP_IP'	=> 'Переглянути хост для IP-адреси',
+	
 	'MARKED_NOTES_DELETED'	=> 'Усі помічені відгуки про користувача успішно видалено',
+	
 	'MCP_ADD'	=> 'Додати попередження',
+	
 	'MCP_BAN'	=> 'Бан',
 	'MCP_BAN_EMAILS'	=> 'Бан адрес e-mail',
 	'MCP_BAN_IPS'	=> 'Бан IP-адрес',
 	'MCP_BAN_USERNAMES'	=> 'Бан імен користувачів',
+	
 	'MCP_LOGS'	=> 'Логи модератора',
 	'MCP_LOGS_FRONT'	=> 'Головна сторінка',
 	'MCP_LOGS_FORUM_VIEW'	=> 'Логи форуму',
 	'MCP_LOGS_TOPIC_VIEW'	=> 'Логи тем',
+	
 	'MCP_MAIN'	=> 'Головна',
 	'MCP_MAIN_FORUM_VIEW'	=> 'Переглянути форум',
 	'MCP_MAIN_FRONT'	=> 'Головна сторінка',
@@ -165,6 +177,7 @@ $lang = array_merge($lang, array(
 	'MCP_MAKE_NORMAL_CONFIRM'	=> 'Ви впевнені, що хочете змінити тип цієї теми на “Звичайна”?',
 	'MCP_MAKE_NORMALS'	=> 'Змінити на “Звичайні теми”',
 	'MCP_MAKE_NORMALS_CONFIRM'	=> 'Ви впевнені, що хочете змінити тип обраних тем на “Звичайні теми”?',
+	
 	'MCP_NOTES'	=> 'Відгуки про користувача',
 	'MCP_NOTES_FRONT'	=> 'Головна сторінка',
 	'MCP_NOTES_USER'	=> 'Інформація про учасника',

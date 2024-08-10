@@ -93,7 +93,7 @@ $lang = array_merge($lang, array(
 	'CLI_ERROR_INVALID_STABILITY' => 'Для "%s" необхідно встановити ознаку "stable" (стабільна) або "unstable" (нестабільна).',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Активувати (або деактивувати) обліковий запис користувача.',
-	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Ім\'я користувача облікового запису для активації.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Username of the account to activate.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_DEACTIVATE'	=> 'Деактивувати обліковий запис користувача',
 	'CLI_DESCRIPTION_USER_ACTIVATE_ACTIVE'		=> 'Обліковий запис вже активовано.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_INACTIVE'	=> 'Обліковий запис вже деактивовано.',
@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'Пароль нового користувача',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'Адреса e-mail нового користувача',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Відправити лист активації новому користувачу (за замовчуванням не відправляється)',
-	'CLI_DESCRIPTION_USER_DELETE'				=> 'Видалити обліковий запис користувача.',
+	'CLI_DESCRIPTION_USER_DELETE'				=> 'Видалити бліковий запис користувача.',
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Ім\'я користувача для видалення',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Видалити усі повідомлення користувача. Без цієї опції повідомлення користувача не буде видалено.',
 	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Відновити видалені імена користувачів.',
@@ -157,17 +157,17 @@ $lang = array_merge($lang, array(
 		0	=> 'Відновлення завершено. Немає видалених користувачів, які потрібно відновити.',
 		1	=> 'Відновлення завершено. Відновлено %d видалений користувач.',
 		2	=> 'Відновлення завершено. Відновлено %d видалених користувачі.',
-		3	=> 'Відновлення завершено. Відновлено %d видалених користувачів.',
+	
 	],
 ));
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' При необхідності ви можете задати назву завдання планувальника, щоб запускати тільки задане завдання планувальника.',
-	'CLI_HELP_USER_ACTIVATE'	=> 'Активувати обліковий запис користувача, або деактивувати за допомогою параметра <info>--deactivate</info>.
+	'CLI_HELP_USER_ACTIVATE'	=> 'Активувати обліковий запис користувачаt, або деактивувати за допомогою параметра <info>--deactivate</info>.
 Для відправки користувачу листа активації, задайте параметр <info>--send-email</info>.',
 	'CLI_HELP_USER_ADD'			=> 'Команда <info>%command.name%</info> додає нового користувача:
 При запуску даної команди без параметрів, вам буде запропоновано їх задати.
 Для відправки повідомлення email новому користувачу, задайте параметр <info>--send-email</info>.',
 	'CLI_HELP_USER_RECLEAN'		=> 'При відновленні користувачів буде здійснено перевірку всіх облікових записів користувачів на існування видаленого імені. Видалені імена користувачів регістронезалежні, нормалізовані і конвертовані в кодування ASCII.',
-));
+	));

@@ -77,7 +77,6 @@ $lang = array_merge($lang, array(
 		1	=> 'Ви можете обрати  <strong>%d</strong> варіант відповіді',
 		2	=> 'Ви можете обрати до <strong>%d</strong> варіантів відповіді',
 	),
-
 	'MISSING_INLINE_ATTACHMENT'	=> 'Вкладення <strong>%s</strong> більше недоступне',
 	'MOVE_TOPIC'				=> 'Перенести тему',
 
@@ -114,13 +113,12 @@ $lang = array_merge($lang, array(
 	'VIEW_NEXT_TOPIC'		=> 'Наступна тема',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Попередня тема',
 	'VIEW_RESULTS'			=> 'Переглянути результати',
-
 	'VIEW_TOPIC_POSTS'		=> array(
 		1	=> '%d повідомлення',
 		2	=> '%d повідомлень',
 	),
-
 	'VIEW_UNREAD_POST'		=> 'Перейти до першого непрочитаного повідомлення',
 	'VOTE_SUBMITTED'		=> 'Ваш голос враховано.',
 	'VOTE_CONVERTED' => 'Зміна голосу не підтримується для конвертованих опитувань.',
+
 ));

@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -47,7 +47,7 @@ if (empty($lang) || !is_array($lang))
 *	start with 'permissions_', so they are automatically loaded within the ACP.
 */
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_CAT_ACTIONS'		=> 'Дії',
 	'ACL_CAT_CONTENT'		=> 'Вміст',
 	'ACL_CAT_FORUMS'		=> 'Форуми',
@@ -62,10 +62,10 @@ $lang = array_merge($lang, array(
 	'ACL_CAT_SETTINGS'		=> 'Налаштування',
 	'ACL_CAT_TOPIC_ACTIONS'	=> 'Дії з темами',
 	'ACL_CAT_USER_GROUP'	=> 'Користувачі',
-));
+]);
 
 // User Permissions
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_U_VIEWPROFILE'	=> 'Може переглядати профілі',
 	'ACL_U_CHGNAME'		=> 'Може змінювати ім\'я',
 	'ACL_U_CHGPASSWD'	=> 'Може змінювати пароль',
@@ -104,10 +104,10 @@ $lang = array_merge($lang, array(
 	'ACL_U_HIDEONLINE'	=> 'Може приховати онлайн статус', 
 	'ACL_U_VIEWONLINE'	=> 'Може переглядати прихованих користувачів',
 	'ACL_U_SEARCH'		=> 'Може здійснювати пошук на форумі',
-));
+]);
 
 // Forum Permissions
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_F_LIST'		=> 'Може бачити форум',
 	'ACL_F_LIST_TOPICS' => 'Може бачити теми',
 	'ACL_F_READ'		=> 'Може читати форум', 
@@ -143,10 +143,10 @@ $lang = array_merge($lang, array(
 	'ACL_F_POLL'		=> 'Може створювати опитування', 
 	'ACL_F_VOTE'		=> 'Може голосувати в опитуваннях', 
 	'ACL_F_VOTECHG'		=> 'Може змінювати відданий голос', 
-));
+]);
 
 // Moderator Permissions
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_M_EDIT'		=> 'Може редагувати повідомлення', 
 	'ACL_M_DELETE'		=> 'Може видаляти повідомлення', 
 	'ACL_M_SOFTDELETE'	=> 'Может видаляти повідомлення<br /><em>Модератори, які мають право схвалювати повідомлення, можуть відновлювати видалені повідомлення.</em>',
@@ -163,10 +163,10 @@ $lang = array_merge($lang, array(
 	'ACL_M_WARN'	=> 'Може робити попередження<br /><em>Це налаштування встановлюється тільки глобально і не є форумним.</em>',  // This moderator setting is only global (and not local)
 	'ACL_M_PM_REPORT'	=> 'Може закривати і видаляти скарги на приватні повідомлення<br /><em>Це налаштування встановлюється тільки глобально і не є форумним.</em>', // This moderator setting is only global (and not local)
 	'ACL_M_BAN'		=> 'Може керувати баном<br /><em>Це налаштування встановлюється тільки глобально і не є форумним.</em>',  // This moderator setting is only global (and not local)
-));
+]);
 
 // Admin Permissions
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_A_BOARD'		=> 'Може змінювати налаштування форуму/перевіряти наявність оновлень',
 	'ACL_A_SERVER'		=> 'Може змінювати налаштування серверу', 
 	'ACL_A_JABBER'		=> 'Може змінювати налаштування Jabber', 
@@ -213,4 +213,4 @@ $lang = array_merge($lang, array(
 	'ACL_A_REASONS'		=> 'Може керувати списком скарг/причин',
 	'ACL_A_BACKUP'		=> 'Може створювати резервні копії / відновлювати базу даних',
 	'ACL_A_SEARCH'		=> 'Може керувати пошуковими індексами і їх налаштуваннями',
-));
+]);

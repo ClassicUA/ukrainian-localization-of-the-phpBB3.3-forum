@@ -37,7 +37,6 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-
 	'CONFIG_NOT_EXIST'					=> 'Параметр конфігурації "%s" не існує.',
 
 	'GROUP_NOT_EXIST'					=> 'Група "%s" не існує.',
@@ -68,11 +67,6 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'Файл оновлення містить помилки. Не вказано тип оновлення.',
 	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'Файл оновлення містить помилки. Обраний тип оновлення неможливий.',
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'Файл оновлення містить помилки. Обраний метод оновлення неможливий.',
-	'MIGRATION_NOT_FULFILLABLE'			=> 'Неможливо виконати оновлення "%1$s", пропущено оновлення "%2$s".',
-	'MIGRATION_NOT_VALID'				=> '%s не є коректним оновленням.',
-	'MIGRATION_SCHEMA_DONE'				=> 'Оновлено​ схему: %1$s; Час: %2$.2f секунд',
-	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Встановлення схеми: %1$s; Час: %2$.2f секунд',
-	'MIGRATION_SCHEMA_RUNNING'			=> 'Оновлення схем: %s.',
 
 	'MODULE_ERROR'						=> 'Помилка при створенні модуля: %s',
 	'MODULE_EXISTS'						=> 'Модуль вже існує %s',

@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 // Database Backup/Restore
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'DELETE_SELECTED_BACKUP'	=> 'Ви впевнені, що хочете видалити обрану резервну копію?',
 	'RESTORE_FAILURE'	=> 'Файл резервної копії пошкоджений.',
 	'TABLE_SELECT_ERROR'	=> 'Ви повинні обрати хоча б одну таблицю.',
@@ -67,4 +67,4 @@ $lang = array_merge($lang, array(
 	'STORE_AND_DOWNLOAD'	=> 'Зберегти та завантажити',
 	'STORE_LOCAL'	=> 'Зберегти файл локально',
 	'TABLE_SELECT'	=> 'Вибір таблиць',
-));
+]);

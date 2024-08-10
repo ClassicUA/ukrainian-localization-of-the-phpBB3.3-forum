@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_GROUPS_MANAGE_EXPLAIN'	=> 'За допомогою цієї панелі ви можете керувати усіма групами, ви можете створювати нові, редагувати і видаляти існуючі групи. Ви можете призначати лідерів, змінювати статус груп, а також задати назву групі та її опис.',
 	'ADD_GROUP_CATEGORY'			=> 'Додати категорію',
 	'ADD_USERS'	=> 'Додати користувачів',
@@ -157,4 +157,4 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEFAULT'	=> 'Встановити групою за замовчуванням',
 	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'Встановлює цю групу групою за замовчуванням для користувачів, які додаються в групу.',
 	'USER_GROUP_LEADER'	=> 'Зробити лідером групи',
-));
+]);

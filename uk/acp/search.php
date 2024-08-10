@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_SEARCH_INDEX_EXPLAIN'				=> 'Тут ви можете керувати індексацією пошуку. Оскільки використовується лише один механізм, видаліть усі індекси, які ви не використовуєте. Після зміни деяких налаштувань пошуку (наприклад кількості мінімуму/максимуму символів) є зміст повторно створити індекс для відтворення цих змін.',
 	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'Тут ви можете встановити, який механізм пошуку буде використовуватись для індексування повідомлень та здійснення пошуку. Ви можете задавати різні налаштування, які можуть впливати на кількість ресурсів необхідних для цих дій. Деякі з цих налаштувань однакові для усіх механізмів пошуку.',
 
@@ -149,4 +149,4 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH_EXPLAIN'					=> 'Вмикає функції пошуку, включаючи пошук учасників.',
 	'YES_SEARCH_UPDATE'						=> 'Увімкнути повнотекстове оновлення',
 	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Оновлення повнотекстових індексів при розміщенні повідомлень, не працює при вимкненій функції пошуку.',
-));
+]);

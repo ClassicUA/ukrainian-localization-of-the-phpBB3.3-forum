@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Тут ви можете керувати усіма видами модулів. Зауважте, що Панель адміністратора має трирівневу структуру меню (Категорія -> Категорія -> Модуль), в результаті чого підрозділи мають дворівневу структуру (Категорія -> Модуль), якої необхідно дотримуватись. Будь ласка, також врахуйте, що ви можете заблокувати доступ самому собі, якщо ви вимкнете або видалите модулі, які відповідають за керування модулів.',
 	'ADD_MODULE'					=> 'Додати модуль',
 	'ADD_MODULE_CONFIRM'			=> 'Ви впевнені, що хочете додати обраний модуль з вказаним методом?',
@@ -80,4 +80,4 @@ $lang = array_merge($lang, array(
 	'PARENT_NO_EXIST'		=> 'Батьківський модуль не існує.',
 
 	'SELECT_MODULE'			=> 'Оберіть модуль',
-));
+]);

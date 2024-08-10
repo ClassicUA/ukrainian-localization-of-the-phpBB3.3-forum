@@ -37,13 +37,13 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALREADY_IN_GROUP_PENDING'	=> 'Ви вже відіслали запит на вступ до цієї групи.',
 	'ALREADY_DEFAULT_GROUP'	=> 'Обрана група вже є групою за замовчуванням',
 	'ALREADY_IN_GROUP'	=> 'Ви вже є членом обраної групи',
-	'CHANGED_DEFAULT_GROUP'	=> 'Група за замовчуванням успішно змінена',
-	'GROUP_AVATAR'	=> 'Аватар групи',
+	'ALREADY_IN_GROUP_PENDING'	=> 'Ви вже відіслали запит на вступ до цієї групи.',
 	'CANNOT_JOIN_GROUP'         => 'Ви не можете вступити до цієї групи. Ви можете вступати лише до відкритих та вільно відкритих груп.',
 	'CANNOT_RESIGN_GROUP'      => 'Ви не можете вийти з цієї групи. Ви можете виходити лише з відкритих та вільно відкритих груп.',	
+	'CHANGED_DEFAULT_GROUP'	=> 'Група за замовчуванням успішно змінена',
+	'GROUP_AVATAR'	=> 'Аватар групи',
 	'GROUP_CHANGE_DEFAULT'	=> 'Ви впевнені що бажаєте змінити вашу групу за замовчуванням на «%s»?',
 	'GROUP_CLOSED'	=> 'Закрита група',
 	'GROUP_DESC'	=> 'Опис групи',

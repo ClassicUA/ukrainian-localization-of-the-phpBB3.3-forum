@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Тут ви можете встановлювати основні налаштування для вкладень та пов\'язаних з ними особливих категорій.',
 	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Тут ви можете додавати, видаляти, змінювати або вимикати групи розширень. Також призначати їм особливих категорії, змінювати механізм завантаження і встановлювати значок, який буде відображатись перед приєднанням відповідної групи.',
 	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Тут ви можете керувати розширеннями файлів. Для активації розширень перейдіть в панель керування групами розширень. Ми наполегливо рекомендуємо не дозволяти потенційно небезпечні розширення (таких як <code>php</code>, <code>php3</code>, <code>php4</code>, <code>phtml</code>, <code>pl</code>, <code>cgi</code>, <code>py</code>, <code>rb</code>, <code>asp</code>, <code>aspx</code>, і т.д.).',
@@ -170,4 +170,4 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICON'					=> 'Значок завантаження',
 	'UPLOAD_NOT_DIR'				=> 'Вказаний шлях для завантаження файлів не є директорією.',
 	'UPLOAD_POST_NOT_EXIST'			=> 'Файл “%1$s” не може бути завантажено в допис номер %2$d, оскільки допис не існує.',
-));
+]);
